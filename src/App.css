@@ -36,3 +36,25 @@
     transform: rotate(360deg);
   }
 }
+
+.div-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-items: center;
+}
+
+.ingredient-text {
+  padding-right: 10px;
+  display: inline-block;
+}
+
+.div-burger-pane {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.div-layer {
+  width: 100px;
+  height: 20px;
+}
